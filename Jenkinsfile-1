@@ -24,7 +24,8 @@ pipeline {
       steps {
         echo 'Deploying to sonatype-nexus'
         sh 'mvn deploy'
-      }
-    }
-  }
+            }
+                    
+    }
+}
 }
