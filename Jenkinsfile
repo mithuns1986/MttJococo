@@ -11,7 +11,7 @@ pipeline {
             }
         }
         stage('maven-master') {
-            agent {label 'maven-master'}
+            agent {label 'ubuntu-new-one'}
             steps {
                 echo 'Hello World from agent maven'
                 sh 'mvn clean test'
