@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     stages {
-        stage('Hello') {
+        stage('GitHub Checkout') {
             agent {label 'Jenkins-Controller'}
             steps {
                 echo 'This is Jenkins Controller'
