@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('webhook') {
             steps {
-                echo 'Hello World'
+                echo 'Build is due to webhook'
             }
         }
     }
