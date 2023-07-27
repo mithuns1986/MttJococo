@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('webhook') {
             steps {
-                echo 'Build is due to webhook....oo.'
+                echo 'Build is due to webhook....oom.'
             }
         }
     }
