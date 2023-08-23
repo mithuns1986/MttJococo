@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('webhook') {
+            steps {
+                echo 'Build is due to webhook....oom.'
+            }
+        }
+    }
+}
