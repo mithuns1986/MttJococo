@@ -1,0 +1,35 @@
+pipeline {
+
+//specify agent
+
+agent any
+
+//specify stages block
+stages {
+//Inside stages block it can have one or more stage.
+
+stage('STAGE #1') {
+
+//specify steps related to that stage
+steps {
+echo "This is stage 1"
+}
+}
+
+stage('STAGE #2') {
+
+    //specify steps related to that stage
+steps {
+echo "This is stage 2"
+}
+}
+stage('STAGE #3') {
+
+    //specify steps related to that stage
+steps {
+echo "This is stage 3"
+}
+}
+}
+
+}
